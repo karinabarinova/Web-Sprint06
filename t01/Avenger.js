@@ -41,6 +41,10 @@ class Avenger extends ClassFunc{
     }
 }
 
+module.exports = {Avenger};
+
+const{Avenger} = require("./Avenger");
+
 const stark = new Avenger(
     {name: 'Tony Stark',
     alias: 'Iron Man',

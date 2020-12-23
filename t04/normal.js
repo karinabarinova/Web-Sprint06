@@ -32,6 +32,6 @@ function calculate_time(end) { //returns year, month,days from 1939
     return `${yearDiff}-${monthDiff}-${dayDiff}`;
 }
 
-module.exports = calculate_time;
+module.exports = {calculate_time};
 
 // console.log(calculate_time("2020-12-22"));

@@ -1,7 +1,7 @@
 let normal = require("./normal");
 
 function calculate_time() {
-    var time = normal();
+    var time = normal.calculate_time();
     var arr = time.split("-");
     var total_days = (parseFloat(arr[0]) * 365) + (parseFloat(arr[1] * 30) + parseFloat(arr[2]));
     var remainder_days = total_days % (365 * 7);
@@ -17,4 +17,4 @@ function calculate_time() {
 
 }
 
-module.exports = calculate_time;
+module.exports = {calculate_time};
