@@ -43,26 +43,22 @@ class Avenger extends ClassFunc{
 
 module.exports = {Avenger};
 
-const{Avenger} = require("./Avenger");
-
-const stark = new Avenger(
-    {name: 'Tony Stark',
-    alias: 'Iron Man',
-    gender: 'man',
-    age: 38,
-    powers: ["intelligence", "durability", "magnetism"]
-    
-});
-
-const natasha = new Avenger({
-    name: 'Natasha Romanoff',
-    alias: 'Black Widow',
-    gender: 'woman',
-    age: 35,
-    powers: ["agility", "martial arts"]
-})
-
 // For test.js
+// const{Avenger} = require("./Avenger");
+// const stark = new Avenger(
+//     {name: 'Tony Stark',
+//     alias: 'Iron Man',
+//     gender: 'man',
+//     age: 38,
+//     powers: ["intelligence", "durability", "magnetism"]  
+// });
+// const natasha = new Avenger({
+//     name: 'Natasha Romanoff',
+//     alias: 'Black Widow',
+//     gender: 'woman',
+//     age: 35,
+//     powers: ["agility", "martial arts"]
+// })
 
 // const examine = (avenger) => {
 //     console.count('Avenger');
