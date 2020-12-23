@@ -12,9 +12,3 @@ http.createServer(function(req, res) {
     res.end();
 }).listen(8888, '127.0.0.1');
 console.log("Server running");
-
-// let button = document.querySelector(".button");
-// console.log(button);
-function forButton() {
-    console.log(clicked);
-}
